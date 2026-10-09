@@ -1,0 +1,34 @@
+# Python / uv output
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+build/
+dist/
+*.egg-info/
+
+# Local settings and secrets
+.env
+.env.*
+!.env.example
+.DS_Store
+.idea/
+.vscode/
+
+# Local AI-assistance instructions and prompt guides
+AGENTS.md
+CLAUDE.md
+GEMINI.md
+.agents/
+.codex/
+.cursor/
+.github/copilot-instructions.md
+.github/instructions/
+.github/prompts/
+*.prompt.md
+*-build-guide.md
